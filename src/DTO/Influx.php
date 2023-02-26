@@ -23,7 +23,7 @@ class Influx implements DTOInterface
         $this->data   = $data;
         $this->bucket = $bucket;
         $this->batch  = $batch;
-        $this->ts = (string) $ts;
+        $this->ts     = (string) $ts;
     }
 
     public function getTimestamp(): string {
@@ -33,7 +33,7 @@ class Influx implements DTOInterface
     public function getMetadata(): array|object {
         return [
             'bucket' => $this->bucket,
-            'batch' => $this->batch
+            'batch'  => $this->batch,
         ];
     }
 

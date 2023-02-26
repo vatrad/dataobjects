@@ -8,16 +8,17 @@ namespace Vatradar\Dataobjects\DTO;
  */
 class Generic implements DTOInterface
 {
-    private array $metaData;
-    private array $data;
+    private array  $metaData;
+    private array  $data;
     private string $timestamp;
 
     public function __construct(array $metaData, array $data, string|int $timestamp) {
-        $this->metaData = $metaData;
-        $this->data = $data;
+        $this->metaData  = $metaData;
+        $this->data      = $data;
         $this->timestamp = (string) $timestamp;
 
     }
+
     public function getTimestamp(): string {
         return $this->timestamp;
     }
