@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\DTO;
+namespace VatRadar\DataObjects\DTO;
 
 /**
  * Data transfer object for InfluxDB Point data

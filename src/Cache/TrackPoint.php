@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\Cache;
+namespace VatRadar\DataObjects\Cache;
 
 /**
  * Defines a Track Point of aeronautical data that includes location,

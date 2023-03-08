@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\DTO;
+namespace VatRadar\DataObjects\DTO;
 
-use Vatradar\Dataobjects\Vatsim\General;
-use Vatradar\Dataobjects\Vatsim\Pilot;
+use VatRadar\DataObjects\Vatsim\General;
+use VatRadar\DataObjects\Vatsim\Pilot;
 
 /**
  * DTO subcontainer for splitting out the Vatsim pilot data

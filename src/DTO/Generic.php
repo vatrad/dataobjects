@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\DTO;
+namespace VatRadar\DataObjects\DTO;
 
 /**
  * Generic data transfer object that can be used to store/transfer

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\Cache;
+namespace VatRadar\DataObjects\Cache;
 
-use Vatradar\Dataobjects\Vatsim\FlightPlan;
+use VatRadar\DataObjects\Vatsim\FlightPlan;
 
 /**
  * A filed flightplan retrieved from the vatsim data.

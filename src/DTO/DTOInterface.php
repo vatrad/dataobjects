@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vatradar\Dataobjects\DTO;
+namespace VatRadar\DataObjects\DTO;
 
 /**
  * Define the minimum required methods for a Data Transfer Object
