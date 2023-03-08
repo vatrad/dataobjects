@@ -13,7 +13,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "VatRadar\DataObjects\\": "src/"
+            "VatRadar\\DataObjects\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\DataObjects": "tests/"
         }
     },
     "require": {
